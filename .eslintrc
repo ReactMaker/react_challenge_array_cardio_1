@@ -31,6 +31,8 @@
     }],
     "import/no-extraneous-dependencies": ["off"],
     "import/extensions": "off",
-    "global-require": "off"
+    "global-require": "off",
+    "no-param-reassign": ["error", { "props": true, "ignorePropertyModificationsFor": ["obj"] }],
+    // "arrow-body-style": "off"
   }
 }
